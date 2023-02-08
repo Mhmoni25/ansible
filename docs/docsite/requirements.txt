@@ -15,3 +15,4 @@ sphinx-intl
 sphinx-ansible-theme >= 0.9.1
 resolvelib
 straight.plugin # Needed for hacking/build-ansible.py which is the backend build script
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
